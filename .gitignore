@@ -1,0 +1,19 @@
+# Entornos virtuales
+env/
+venv/
+
+# Python cache
+_pycache_/
+*.pyc
+
+# Logs
+*.log
+nohup.out
+
+# Archivos temporales
+*.tmp
+*.swp
+
+# Configuración local
+.env
+*.sqlite3

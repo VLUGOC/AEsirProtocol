@@ -1,0 +1,54 @@
+.
+├── api
+│   └── server.py
+├── configs
+│   ├── services.json
+│   └── settings.yaml
+├── core
+│   └── aesir_core.py
+├── data
+│   ├── logs
+│   └── memory
+├── env
+│   ├── bin
+│   ├── include
+│   ├── lib
+│   ├── lib64 -> lib
+│   └── pyvenv.cfg
+├── google-chrome-stable_current_amd64.deb
+├── jarvis
+│   ├── core.py
+│   ├── __init__.py
+│   ├── jarvis.py
+│   ├── memory.py
+│   └── planner.py
+├── jarvis.py
+├── logs
+├── modules
+├── orchestrator
+│   ├── cli.py
+│   ├── __init__.py
+│   └── profile.py
+├── phone_sync
+├── _scan
+│   ├── du.txt
+│   └── tree.txt
+├── scripts
+│   ├── dev_start.sh
+│   └── install_deps.sh
+├── tools
+│   ├── ae_sync.sh
+│   ├── ae_sync.shnano
+│   └── ae_sync.sh.save
+├── ui
+│   └── matrix_face
+├── viernes
+│   ├── health.py
+│   ├── __init__.py
+│   ├── scheduler.py
+│   └── system.py
+└── voice
+    ├── __init__.py
+    └── voice_client.py
+
+24 directories, 28 files

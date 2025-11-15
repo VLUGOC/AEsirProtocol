@@ -1,0 +1,9 @@
+#!/bin/bash
+PHONE_IP="100.111.107.73"
+PHONE_USER="u0_a336"
+PHONE_PATH="/data/data/com.termux/files/home/AEsirProtocol/"
+PC_PATH="/home/victor/AEsirProtocol/phone_sync/"
+
+echo "🔄 Iniciando sincronización con $PHONE_IP..."
+rsync -avzP --delete -e "ssh -p 8022" $PHONE_USER@$PHONE_IP:$PHONE_PATH $PC_PATH
+echo "✅ Sincronización completada."
