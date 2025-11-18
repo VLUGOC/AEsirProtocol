@@ -14,7 +14,7 @@ from pathlib import Path
 # ==============================
 # CONFIGURACIÓN
 # ==============================
-PROJECT_ROOT = Path(__file__).resolve().parent.parent
+PROJECT_ROOT = Path(_file_).resolve().parent.parent
 LOG_FILE = PROJECT_ROOT / "engineer" / "logs" / "engineer.log"
 
 
@@ -70,7 +70,7 @@ def run_engineer(prompt: str, file_to_read: str):
 # ==============================
 # MAIN
 # ==============================
-if __name__ == "__main__":
+if _name_ == "_main_":
     if len(sys.argv) < 2:
         print("Uso: python3 engineer/run_engineer.py \"mi pregunta\" [archivo]")
         sys.exit(1)
